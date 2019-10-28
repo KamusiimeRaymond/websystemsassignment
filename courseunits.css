@@ -66,7 +66,7 @@ body {
 }
 
 .courseunit{
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     width: 600px;
     padding: 60px;
     margin: auto;
@@ -97,4 +97,24 @@ p {
 
 .foot {
     font-size: 20px;
+}
+
+.web {
+    background: linear-gradient(to right, rgba(5, 24, 27, 0.767),rgba(10, 37, 94, 0.719)), url(images/web-system.jpg);   
+}
+
+.dim {
+    background: linear-gradient(to right, rgba(5, 24, 27, 0.767),rgba(10, 37, 94, 0.719)), url(images/dim2.jpg);   
+}
+
+.ent {
+    background: linear-gradient(to right, rgba(5, 24, 27, 0.767),rgba(10, 37, 94, 0.719)), url(images/ent.jpeg);   
+}
+
+.media {
+    background: linear-gradient(to right, rgba(5, 24, 27, 0.767),rgba(10, 37, 94, 0.719)), url(images/design-multimedia.jpg);   
+}
+
+.security {
+    background: linear-gradient(to right, rgba(5, 24, 27, 0.767),rgba(10, 37, 94, 0.719)), url(images/systems_security.jpg);   
 }
