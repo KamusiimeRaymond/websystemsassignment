@@ -1,0 +1,140 @@
+@font-face {
+    font-family: headerfont;
+    src: url(fonts/Angelinatta.otf);
+}
+
+@font-face {
+    font-family: normaltext;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: logotext;
+    src: url(fonts/Abite.otf);
+}
+
+body {
+    position: relative;
+    background: linear-gradient(to right, rgba(190, 52, 10, 0.6), rgba(167, 114, 72, 0.6)), url(images/interests.jpg);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    margin: -10px -10px;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(190, 52, 10, 1), rgba(167, 114, 72, 1));
+    position: fixed;
+    width: 100%;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: normaltext;
+    transition: all .2s;
+}
+
+.menu a:hover{
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.active {
+    background-color: rgb(218, 155, 21);
+}
+
+.heading {
+    margin: auto;
+    text-align: center;
+    font-size: 100px;
+    font-family: headerfont;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 0;
+    margin-top: -20px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(61, 11, 11);
+}
+
+.martin {
+    background-image: url(images/martin.jpg);
+    background-size: cover;
+}
+
+.opoka {
+    background-image: url(images/opokahobie.jpg);
+    background-size: cover;    
+}
+
+.vian {
+    background-image: url(images/vian2.jpg);
+    background-size: cover;        
+}
+
+.oba {
+    background-image: url(images/oba.jpg);
+    background-size: cover;            
+}
+
+.isaac {
+    background-image: url(images/isaac.jpg);
+    background-size: cover;                
+}
+
+.ray {
+    background-image: url(images/ray.jpg);
+    background-size: cover;                
+}
+
+.interests {
+    display: inline-block;
+    font-family: normaltext;
+    background-color: white;
+    margin: -45px;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    font-size: 30px;
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgba(190, 52, 10, 1), rgba(167, 114, 72, 1));
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.indexmembers {
+    padding: 20px;
+}

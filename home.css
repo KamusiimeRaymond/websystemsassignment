@@ -1,0 +1,108 @@
+@font-face {
+    font-family: headerfont;
+    src: url(fonts/Angelinatta.otf);
+}
+
+@font-face {
+    font-family: normaltext;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: logotext;
+    src: url(fonts/Abite.otf);
+}
+
+body {
+    position: relative;
+    background: linear-gradient(to right, rgba(190, 52, 10, 0.651), rgba(167, 114, 72, 0.699)), url(images/cassettetape.jpg);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    margin: -10px -10px;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(190, 52, 10, 1), rgba(167, 114, 72, 1));
+    position: fixed;
+    width: 100%;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: normaltext;
+    transition: all .2s;
+}
+
+.menu a:hover{
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.active {
+    background-color: rgb(218, 155, 21);
+}
+
+.heading {
+    text-align: center;
+    font-size: 80px;
+    font-family: headerfont;
+    color: white;
+    transition: all .2s;
+}
+
+.heading:hover {
+    transform: translateY(-5px);
+}
+
+.container {
+    left: 50%;
+    margin: 50px;
+    text-align: center;
+    top: 50%;
+}
+
+.box {
+    display: inline-block;
+    margin: 20px 20px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    width: 300px;
+    transition: all .2s;
+    font-family: normaltext;
+}
+
+p {
+    font-size: 20px;
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgba(190, 52, 10, 1), rgba(167, 114, 72, 1));
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.indexmembers {
+    padding: 20px;
+}

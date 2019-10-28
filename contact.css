@@ -1,0 +1,130 @@
+@font-face {
+    font-family: headerfont;
+    src: url(fonts/Angelinatta.otf);
+}
+
+@font-face {
+    font-family: normaltext;
+    src: url(fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: logotext;
+    src: url(fonts/Abite.otf);
+}
+
+body {
+    position: relative;
+    background: linear-gradient(to right, rgba(85, 24, 6, 0.7), rgba(63, 43, 27, 0.7)), url(images/contact-us.jpg);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    margin: -10px -10px;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(190, 52, 10, 1), rgba(167, 114, 72, 1));
+    position: fixed;
+    width: 100%;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: normaltext;
+    transition: all .2s;
+}
+
+.menu a:hover{
+    color: black;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.active {
+    background-color: rgb(218, 155, 21);
+}
+
+.heading {
+    margin: auto;
+    text-align: center;
+    font-size: 100px;
+    font-family: headerfont;
+    color: white;
+}
+
+.contactform {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    color: white;
+    font-family: normaltext;
+    font-size: 30px;
+}
+
+.formcontent {
+    padding: 20px;
+}
+
+input {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+select {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.message {
+    height: 100px;
+    width: 300px;
+}
+
+button {
+    padding: 15px;
+    width: 200px;
+    background-color: brown;
+    color: white;
+    font-family: normaltext;
+    font-size: 17px;
+    box-shadow: rgba(63, 43, 27, 0.7);
+    border-radius: 20px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: rgb(248, 181, 37);
+    color: rgb(240, 238, 238);
+    font-size: bold;
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgba(190, 52, 10, 1), rgba(167, 114, 72, 1));
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
