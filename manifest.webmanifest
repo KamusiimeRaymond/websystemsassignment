@@ -3,7 +3,7 @@
 	"lang" : "en",
 	"name" : "Group 5 website",
 	"scope" : "/websystemsassignment/",
-	"display" : "browser",
+	"display" : "standalone",
 	"start_url" : "https://kamusiimeraymond.github.io/websystemsassignment/",
 	"short_name" : "Group 5 website",
 	"theme_color" : "transparent",
